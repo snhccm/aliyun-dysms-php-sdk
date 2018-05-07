@@ -1,0 +1,22 @@
+{
+    "name": "snhccm/aliyun-dysms-php-sdk",
+    "description": "aliyun sms for php",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "1690582177",
+            "email": "1690582177@qq.com"
+        }
+    ],
+    "minimum-stability":"stable",
+    "require": {
+        "php": ">5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "snhccm\\aliyun\\sms\\": "src/",
+            "Aliyun\\": "src/lib/"
+        }
+    }
+}
