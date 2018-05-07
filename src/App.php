@@ -1,8 +1,6 @@
 <?php
 namespace snhccm\aliyun\sms;
 
-require_once ('../vendor/autoload.php');
-
 use Aliyun\Core\Config;
 use Aliyun\Core\Profile\DefaultProfile;
 use Aliyun\Core\DefaultAcsClient;
